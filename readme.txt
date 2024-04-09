@@ -12,12 +12,16 @@
     git log  
     git reflog 
     git reset --hard  (版本号)
-<<<<<<< HEAD
 7、分支
-git branch
-git branch dev
+ 查看分支                   git branch
+创建分支                    git branch dev
 切换到dev分支          git checkout dev
 切换到主线             git checkout master
-=======
-
->>>>>>> dev
+把bug分支合并到主分支           git merge bug          切换分支再合并（可能产生冲突）
+删除bug分支            git branch -d bug
+分支合并可能会产生冲突，需要手动去解决冲突    ----------- 一切都建立在master主支上
+8、工作流
+9、进军三里屯
+给远程仓库起别名          git remote add origin <远程仓库地址>https://github.com/Su1688/dbhot2.git
+给远程推送代码          git push -u origin 分支
+克隆远程仓库的代码                     git clone  <远程仓库地址>https://github.com/Su1688/dbhot2.git
