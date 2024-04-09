@@ -12,8 +12,12 @@
     git log  
     git reflog 
     git reset --hard  (版本号)
+<<<<<<< HEAD
 7、分支
 git branch
 git branch dev
 切换到dev分支          git checkout dev
 切换到主线             git checkout master
+=======
+
+>>>>>>> dev
