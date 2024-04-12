@@ -60,5 +60,14 @@ git checkout dev
 git merge master
 git push origin dev
 
+10、git rebase应用的第一个场景：整合多个版本
+git rebase -i HEAD~2 
+git rebase --continue
+git rebase --edit-todo
+
+
+git log --graph          以图形的方式展示出来 
+git log --graph --pretty=format:'%h %s'   简洁的表示出来
+
 
 
